@@ -1,0 +1,207 @@
+header {
+	width: 100%;
+	padding: .17rem 0 .19rem;
+    background: #fece02;
+	position: fixed;
+	height: 1.06rem;
+	box-sizing: border-box;
+    
+}
+header .container{
+	width: 7.17rem;
+	height: .69rem;
+	margin: 0 auto;
+}
+header .container .logo{
+	float: left;
+	margin: .06rem .48rem 0 .2rem;
+}
+header .container .logo, header .container .logo img{
+	width: .64rem;
+	height: .68rem;
+}
+header .container .search{
+	float: left;
+	/*width: 4.31rem;*/
+	width: 3.81rem;
+	/*height: .69rem;*/
+	height: .38rem;
+	border-radius: .31rem;
+	background: rgba( 255, 255, 255, .5);
+	padding: .18rem .25rem .13rem;
+}
+header .container .search img{
+	float: left;
+	width: .38rem;
+	height: .38rem;
+}
+header .container .search input{
+	float: left;
+	width: 3.2rem;
+	height: .38rem;
+	line-height: .38rem;
+	padding-left: .20rem;
+	border: none;
+	outline: none;
+	background: rgba( 255, 255, 255, 0);
+}
+header .container .search input, header .container .search input::-webkit-input-placeholder{
+	color: #fff5c9;
+	font-size: .3rem;
+}
+/* 公共代码 */
+header .container .sm, header .container .sm img, header .container .info, header .container .info img{
+	width: .49rem;
+    height: .49rem;
+    float: left;
+    margin-top: .05rem !important;
+}
+header .container .sm{
+	float: left;
+	margin: 0.04rem .0rem 0 .11rem;
+}
+header .container .info{
+    float: left;
+    margin-left: .1rem;
+}
+section.content{
+    padding-top:1.06rem ; 
+    width: 100%;
+	height: 100%;
+	padding-bottom: 1.14rem;
+	box-sizing: border-box;
+}
+section.content div.content-l,section.content div.content-r{
+	float: left;
+	width: 1.73rem;
+	height: 100%;
+	border-right: 1px #999999 solid;
+	overflow: hidden;
+	overflow-y:scroll;
+}
+section.content div.content-l p{
+	width: 100%;
+	height: .87rem;
+	border-bottom: 0.01rem solid #999999;
+	font-size: .30rem;
+	text-align: center;
+	/* box-sizing: border-box; */
+    line-height: .87rem;
+    background-color: #f8f8f8;
+}
+section.content div.content-l p.on{
+	border-left: .06rem solid #fece02;
+	background-color: white;
+	color: #ff9933;
+	
+	
+}
+section.content div.content-r{
+	border: none;
+	width: 76.5%;
+}
+section.content div.content-r p.title{
+	width: 100%;
+	height: .49rem;
+	/* display: block; */
+	line-height: .49rem;
+	padding-left: .17rem;
+	background-color: #f8f8f8;
+	font-size: .30rem;
+	box-sizing: border-box;
+	/* padding: .9 0 0  .17rem; */
+}
+section.content div.content-r div.product-c div:first-child,section.content div.content-r div.product-c div:first-child img{
+
+	width:1.68rem;
+	height:1.22rem ; 
+}
+section.content div.content-r div.product-c div:first-child{
+	float: left;
+	margin: .53rem 0 0 .27rem;
+}
+section.content div.content-r div.product-c{
+	width: 100%;
+	height: 2.30rem;
+    border-bottom: 0.01rem solid #a1a1a1;
+}
+section.content div.content-r div.product-c div:nth-child(2){
+	float: left;
+	margin: .19rem 0 0 .16rem;
+
+	position: relative;
+}
+section.content div.content-r div.product-c div:nth-child(2) p{
+	font-size: .28rem;
+	margin-bottom: .14rem;
+
+}
+section.content div.content-r div.product-c div:nth-child(2) p.sale{
+	font-size: .22rem;
+	width: .92rem;
+	height: .48rem;
+	line-height: .48rem;
+	text-align: center;
+	background-color: #ff3300;
+	color: #ffffff;
+	border-radius: .1rem;
+
+}
+section.content div.content-r div.product-c div:nth-child(2) p.quantity{
+	font-size: .3rem;
+	color: #999999;
+}
+section.content div.content-r div.product-c div:nth-child(2) p.price{
+	font-size: .3rem;
+	color: #ff3300;
+
+}
+section.content div.content-r div.product-c div:nth-child(2) p.add,section.content div.content-r div.product-c div:nth-child(2) p.add img{
+	width: .67rem;
+	height: .67rem;
+} 
+section.content div.content-r div.product-c div:nth-child(2) p.add{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+section.content div.content-r div.product-c div:nth-child(2) p span{
+	display: inline-block;
+	width: .49rem;
+	height: .36rem;
+	text-align: center;
+	line-height: .36rem;
+	font-size: .23rem;
+	color: #ff3300;
+	border: .02rem solid #ff3300;
+	border-radius: .08rem;
+
+}
+
+
+footer{
+    width: 100%;
+    height: 1.13rem;
+    border-top:  .01rem  solid #cccccc;
+    position: fixed;
+    background-color: #f8f8f8;
+    bottom: 0;
+    left: 0;
+}
+footer nav section.container{
+    display: flex;
+    justify-content: space-between;
+    color: #999999;
+    text-align: center;
+
+}
+footer nav section.container figure{
+    margin: 0 .27rem;
+    margin-top: .28rem;
+    
+}
+footer nav section.container figure img{
+    width: .5rem;
+    height: .47rem;
+    
+}

@@ -1,0 +1,188 @@
+body{
+    background-color: #f8f8f8;
+}
+
+header {
+	width: 100%;
+	padding: .17rem 0 .19rem;
+    background: #fece02;
+    position: fixed;
+    
+}
+header .container{
+	width: 7.17rem;
+	height: .69rem;
+	margin: 0 auto;
+}
+header .container .logo{
+	float: left;
+	margin: .06rem .48rem 0 .2rem;
+}
+header .container .logo, header .container .logo img{
+	width: .64rem;
+	height: .68rem;
+}
+header .container .search{
+	float: left;
+	/*width: 4.31rem;*/
+	width: 3.81rem;
+	/*height: .69rem;*/
+	height: .38rem;
+	border-radius: .31rem;
+	background: rgba( 255, 255, 255, .5);
+	padding: .18rem .25rem .13rem;
+}
+header .container .search img{
+	float: left;
+	width: .38rem;
+	height: .38rem;
+}
+header .container .search input{
+	float: left;
+	width: 3.2rem;
+	height: .38rem;
+	line-height: .38rem;
+	padding-left: .20rem;
+	border: none;
+	outline: none;
+	background: rgba( 255, 255, 255, 0);
+}
+header .container .search input, header .container .search input::-webkit-input-placeholder{
+	color: #fff5c9;
+	font-size: .3rem;
+}
+/* 公共代码 */
+header .container .sm, header .container .sm img, header .container .info, header .container .info img{
+	width: .49rem;
+    height: .49rem;
+    float: left;
+    margin-top: .05rem !important;
+}
+header .container .sm{
+	float: left;
+	margin: 0.04rem .0rem 0 .11rem;
+}
+header .container .info{
+    float: left;
+    margin-left: .1rem;
+}
+section.content{
+    padding-top:1.01rem ; 
+    padding-bottom: 1.14rem;
+}
+section.content section.banner,section.content section.banner img
+{
+    width: 100%;
+    height: 2.83rem;
+}
+section.content section.container{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* width: 7.5rem; */
+    width: 100%;
+    height: 1.85rem;
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+}
+section.content section.container figure{
+    position: relative;
+    width: .97rem;
+    height: 1.54rem;
+    display: inline-block;
+    margin: 0.14rem .40rem;
+  
+}
+section.content section.container figure.hot::after{
+    content: "hot";
+    background-color: red;
+    color: #fdfbfe;
+    width: .6rem;
+    height: .26rem;  
+    line-height: .26rem;
+    border-radius:.26rem;   
+    position: absolute;
+    right: -.2rem;
+    top: 0;
+    display: block;
+    
+}
+section.content section.container figure a img{
+    width: .97rem;
+    height: .92rem;
+
+}
+section.content section.container figure figcaption{
+    margin-top: .12rem;
+    font-size: .24rem;
+    
+}
+section.content section.context{
+ width: 7.17rem; 
+ height: 2.86rem;
+ border: 1px solid #cccccc;
+ margin: .21rem auto;
+}
+section.content section.context section.context-im,section.content section.context section.context-im img{
+    width: 3.16rem;
+    height: 2.39rem;
+    float:right;
+    background-color: #fdfbfe;
+    
+
+}
+section.content section.context section.context-im{
+    margin: .19rem .20rem;
+}
+section.content section.context section figcaption{
+    margin: .48rem 0 .32rem .48rem;
+    font-size: .49rem;
+    color: #ff6699;
+    font-weight: bold;
+    
+}
+section.content section.context section figure span:first-child{
+    font-size: .60rem;
+
+}
+section.content section.context section figure{
+    font-size:.27rem;
+    margin: 0 0 .14rem .48rem;
+    
+}
+section.content section.context section figure.up{
+    border-bottom: 1px solid black;
+    width: 3.24rem;
+}
+section.content section.context section hr{
+    margin-left:.48rem; 
+}
+section.content section.context section figure:last-child{
+    color: #999999;
+}
+footer{
+    width: 100%;
+    height: 1.13rem;
+    border-top:  .01rem  solid #cccccc;
+    position: fixed;
+    background-color: #f8f8f8;
+    bottom: 0;
+    left: 0;
+}
+footer nav section.container{
+    display: flex;
+    justify-content: space-between;
+    color: #999999;
+    text-align: center;
+
+}
+footer nav section.container figure{
+    margin: 0 .27rem;
+    margin-top: .28rem;
+    
+}
+footer nav section.container figure img{
+    width: .5rem;
+    height: .47rem;
+    
+}

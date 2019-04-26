@@ -1,0 +1,195 @@
+body{
+	background-color:#eeeeee;
+}
+header {
+	width: 100%;
+	/* padding:; */
+    background: #fece02;
+	position: fixed;
+	z-index: 2;
+    
+}
+header .container{
+	width: 7.50rem;
+	height: 1.07rem;
+	margin: 0 auto;
+}
+header .container .logo{
+	float: right;
+	margin: .21rem .25rem 0 .76rem;
+}
+header .container .logo, header .container .logo img{
+	width: .64rem;
+	height: .68rem;
+}
+header .container .search{
+	float: left;
+	/*width: 4.31rem;*/
+	width: 4.30rem;
+	/*height: .69rem;*/
+    height: .68rem;
+    box-sizing: border-box;
+	border-radius: .31rem;
+	background: rgba( 255, 255, 255, .5);
+    padding: .18rem .25rem .13rem;
+    margin: .2rem 0 0 1.02rem;
+}
+header .container .search img{
+	float: left;
+	width: .38rem;
+	height: .38rem;
+}
+header .container .search input{
+	float: left;
+	width: 3.2rem;
+	height: .38rem;
+	line-height: .38rem;
+	padding-left: .20rem;
+	border: none;
+	outline: none;
+	background: rgba( 255, 255, 255, 0);
+}
+header .container .search input, header .container .search input::-webkit-input-placeholder{
+	color: #fff5c9;
+    font-size: .3rem;
+}
+/* header .container .sm, header .container .sm img, header .container .info, header .container .info img{
+	width: .49rem;
+    height: .49rem;
+    float: left;
+    margin-top: .05rem !important;
+}
+header .container .sm{
+	float: left;
+	margin: 0.04rem .0rem 0 .11rem;
+}
+header .container .info{
+    float: left;
+    margin-left: .1rem;
+}
+section.content{
+    padding-top:1.01rem ; 
+    padding-bottom: 1.14rem;
+} */
+header .container .back,header .container .back img{
+    height: .67rem;
+    width: .34rem;
+    
+}
+header .container .back{
+ float: left;
+ margin: .23rem 0 0 .19rem;
+}
+section.content{
+	padding-top:1.07rem;
+}
+section.content section.hot-search{
+	width:7.11rem;
+	height:3.2rem;
+    margin:.2rem auto ;
+    background-color:#ffffff;
+	display: flex;
+	flex-wrap:wrap;
+	align-items: flex-start;
+	align-content: flex-start;
+	box-sizing: border-box;
+	padding: .12rem  .18rem;
+	position: relative;
+	z-index: 1;
+	
+/* border :1rem solid  */
+}
+section.content section.hot-search figcaption{
+	padding: .21rem 0;
+    height: .80rem;
+    font-size: .3rem;
+    box-sizing: border-box;
+    width: 50%;
+    border-bottom: .01rem solid #cccccc;
+}
+section.content section.hot-search figcaption p{
+padding: .03rem .06rem;
+text-align: center;
+/* height: .65rem; */
+box-sizing: border-box;
+border-right: .01rem solid #cccccc;
+
+
+}
+
+section.content section.hot-search figcaption:first-child{
+	width: 1.33rem;
+	color: #ff6600;
+}
+section.content section.hot-search figcaption:nth-child(2),section.content section.hot-search figcaption:nth-child(3){
+	width: 2.70rem;
+}
+section.content section.hot-search figcaption p.no{
+	border: none;
+}
+section.content section.hot-search div.list{
+	width:100%;
+	height: .58rem;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	/* background-color: #ff6600; */
+	
+	
+}
+section.content section.hot-search div.list ul{
+	width: .92rem;
+	list-style-type: none;
+	margin: .19rem auto;
+	display: flex;
+	justify-content: space-between;
+
+}
+section.content section.hot-search div.list ul li{
+	float: left;
+	width: .19rem;
+	height: .19rem;
+	border-radius:50%;
+	 
+	border:  .02rem solid #cccccc;
+	list-style-type: none;
+}
+section.content section.hot-search div.list ul li.on{
+	background-color: #fe9002;
+}
+section.content section.search-history{
+	width: 100%;
+	height: 4.75rem;
+	background-color: #ffffff;
+	margin-top: .11rem;
+}
+section.content section.search-history figcaption{
+height: .78rem;
+width: 100%;
+line-height: .78rem;
+border-bottom: .01rem solid #cccccc;
+padding: 0;
+margin:0;
+font-size: .3rem;
+}
+section.content section.search-history figcaption img{
+	height: .41rem;
+	width: .37rem;
+	margin-left: .21rem;
+	margin-top: .190rem;
+	margin-right: .13rem;
+	float: left;
+
+}
+section.content section.search-history figcaption:last-child{
+	line-height: .85rem;
+	
+}
+section.content section.search-history figcaption:last-child a{
+    color: #999999 !important;
+}
+section.content section.search-history figcaption:last-child img{
+	margin-left: 2.39rem;
+	width: .5rem;
+	height: .5rem;
+}

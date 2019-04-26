@@ -1,0 +1,181 @@
+body{
+	background-color: #eaebef;
+}
+header{
+	position: fixed;
+	top: 0;
+	left:0;
+	height: 1.07rem;
+	width: 100%;
+	border-bottom: .01rem solid #cecccc;
+	background-color: #f4f5f5;
+}
+header div.container div.back{
+	float: left;
+	margin: .23rem 0 0 .39rem;
+
+
+}
+ 
+header div.container div.back a{
+	font-size: .72rem;
+	color:#ff6600;
+}
+header div.container  div.title {
+	float: left;
+	margin: .31rem 0 0 .85rem ;
+	font-size: .40rem;
+
+}
+header div.container  div.share{
+	float: right;
+	margin: .18rem .23rem;
+    
+}
+header div.container  div.share,header div.container  div.share img{
+	width: .7rem;
+	height: .7rem;
+}
+section.content{
+	padding: 1.07rem 0;
+}
+section.content div.product-im img,section.content div.product-im {
+	width: 100%;
+	height: 4.36rem;
+    
+}
+section.content div.product-messsage{
+	padding:.24rem 0 0 .33rem;
+	font-size: .37rem;
+	border-bottom: .01rem solid #cccccc; 
+	background: #ffffff;
+	
+}
+section.content div.product-messsage .price{
+	font-size: .48rem;
+	margin-top: .45rem;
+	margin-bottom: .17rem;
+	color: #ff6600;
+}
+section.content div.product-messsage .price span{
+	display: inline-block;
+	margin-left: .3rem;
+	font-size: .42rem;
+	color: #cccccc;
+	text-decoration:line-through;
+}
+section.content div.product-melist div{
+	width: 100%;
+	line-height: .82rem;
+	box-sizing: border-box;
+	padding-left: .22rem;
+	height: .82rem;
+	background-color: #f8f8f8;
+	border-bottom: .01rem solid #cccccc;
+	color: #9e9e9e;
+}
+section.content div.product-melist div span{
+	display: inline-block;
+	color: #000000;
+	margin-left: .43rem;
+}
+section.content div.product-particulars{
+	height: 3.81rem;
+	width: 100%;
+	margin: .17rem 0;
+	background-color: #ffffff;
+}
+section.content div.product-particulars  img{
+	height: 2.23rem;
+	width: 4.05rem;
+	margin: .83rem 1.44rem;
+
+
+}
+
+footer {
+	position: fixed;
+	width: 7.5rem;
+	height: .95rem;
+	bottom: 0;
+	left:0;
+	border-top: .04rem solid #cecccc;
+	/* background: red; */
+}
+footer .container {
+	width: 100%;
+	height: .95rem;
+	background: #f4f5f5;
+	/* background: blue; */
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+footer .circle-border {
+	width: 1.44rem;
+	height: 1.44rem;
+	border: .02rem solid #cecccc;
+	border-radius: 50%;
+	background: #f4f5f5;
+	position: absolute;
+	top: -.55rem;
+	right: .1rem;
+	z-index: 1;
+}
+
+footer .circle {
+	width: 1.44rem;
+	height: 1.44rem;
+	border-radius: 50%;
+	/* background: blue; */
+	position: absolute;
+	top: -.51rem;
+	right: .12rem;
+	z-index: 100;
+}
+/*footer .circle .card{
+	width: 1.26rem;
+	height: 1.26rem;
+	border-radius: 50%;
+	background: orange;
+	margin: 0 auto;
+	margin-top: .09rem;
+}*/
+footer .cart{
+	width: 1.26rem;
+	height: 1.26rem;
+	border-radius: 50%;
+	background: orange;
+	position: absolute;
+	top: -.42rem;
+	right: .21rem;
+	z-index: 100;
+}
+footer div.container p{
+	float: left;
+	/* margin-top: .33rem; */
+}
+footer div.container p:first-child{
+	margin: .33rem  .23rem  0 .34rem;
+	font-size: .30rem;
+}
+footer div.container  a{
+	display: block;
+	float: left;
+}
+footer div.container  a,footer div.container  a img{
+	width: .62rem;
+	height: .59rem;
+	margin: .10rem .20rem 0 0;
+}
+footer div.container p.num{
+margin-top:.30rem;
+margin-right: .20rem;
+font-size: .36rem;
+color: #666666;
+}
+footer div.cart{
+	background-image: url(../images/cart-in.png);
+	background-size: contain;
+}
